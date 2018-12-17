@@ -1,0 +1,6 @@
+plugins:
+  bhavikbavishi123/test:
+  - size
+  - cat
+  - dog
+  - trigger
