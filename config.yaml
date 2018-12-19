@@ -1,3 +1,11 @@
+periodics:
+- interval: 10m
+  name: echo-test-job
+  decorate: true
+  spec:
+    containers:
+    - image: alpine
+      command: ["/bin/printenv"]
 postsubmits:
   bhavikbavishi123/test:
   - name: test-postsubmit
